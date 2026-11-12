@@ -4,8 +4,8 @@ project "GLFW"
 	staticruntime "off"
 	warnings "off"
     location "."
-	targetdir ("build/macosx")
-	objdir ("build/macosx")
+	targetdir ("build")
+	objdir ("build-int")
 
 	files
 	{
